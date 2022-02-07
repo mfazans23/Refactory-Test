@@ -13,7 +13,7 @@
 // maxRedigit(99)  --> null
 // maxRedigit(1000) --> null
 
-function biggestNumber(num) {
+function maxRedigit(num) {
   if (String(num).length === 3 && num > 0) {
     let numArr = String(num)
       .split('')
